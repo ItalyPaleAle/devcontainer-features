@@ -1,15 +1,15 @@
 
-# Hello, World! (hello)
+# Minio CLI (minio-cli)
 
-A hello world feature
+Install the Minio CLI
 
 ## Example Usage
 
 ```json
 "features": {
-        "ghcr.io/devcontainers/feature-template/hello:1": {
-            "version": "latest"
-        }
+    "ghcr.io/ItalyPaleAle/devcontainer-features/minio-cli:1": {
+        "version": "latest"
+    }
 }
 ```
 
@@ -17,10 +17,10 @@ A hello world feature
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-template/blob/main/src/hello/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ItalyPaleAle/devcontainer-features/blob/main/src/minio-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
