@@ -11,14 +11,10 @@ jobs:
     continue-on-error: true
     strategy:
       matrix:
-        features: [
-           "color",
-           "hello"
-        ]
+        features:
+          - "minio-cli"
         baseImage:
-          [
-            "mcr.microsoft.com/devcontainers/base:ubuntu"
-          ]
+          - "mcr.microsoft.com/devcontainers/base:debian-11"
     steps:
       - uses: actions/checkout@v2
 

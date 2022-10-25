@@ -1,0 +1,7 @@
+{
+    "name": "Minio CLI",
+    "id": "minio-cli",
+    "version": "1.0.0",
+    "description": "Install the Minio CLI",
+    "options": {}
+}
