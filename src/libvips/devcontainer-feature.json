@@ -1,0 +1,35 @@
+{
+    "name": "libvips",
+    "id": "libvips",
+    "version": "1.0.0",
+    "description": "Install libvips and its build-time and run-time dependencies",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "8.13.2"
+            ],
+            "default": "8.13.2",
+            "description": "Select or enter a libvips version to install"
+        },
+        "libcgifVersion": {
+            "type": "string",
+            "proposals": [
+                "0.3.0"
+            ],
+            "default": "0.3.0",
+            "description": "Select or enter a libcgif version to install"
+        },
+        "libspngVersion": {
+            "type": "string",
+            "proposals": [
+                "0.7.2"
+            ],
+            "default": "0.7.2",
+            "description": "Select or enter a libspng version to install"
+        }
+    },
+    "containerEnv": {
+        "CGO_CFLAGS_ALLOW": "-Xpreprocessor"
+    }
+}

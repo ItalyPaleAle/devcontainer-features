@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 # Clean up
 rm -rf /var/lib/apt/lists/*
