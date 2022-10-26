@@ -1,0 +1,19 @@
+{
+    "name": "golangci-lint",
+    "id": "golangci-lint",
+    "version": "1.0.0",
+    "description": "Install golangci-lint from the official binaries",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select or enter a golangci-lint version to install"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/go"
+    ]
+}
