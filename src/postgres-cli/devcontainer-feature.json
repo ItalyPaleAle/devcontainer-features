@@ -1,0 +1,7 @@
+{
+    "name": "Postgres CLI",
+    "id": "postgres-cli",
+    "version": "1.0.0",
+    "description": "Installs Postgres CLIs: psql and pgcli",
+    "options": {}
+}
